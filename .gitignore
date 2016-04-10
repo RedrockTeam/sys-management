@@ -32,4 +32,6 @@ output.tar.gz
 
 app/
 
-runtime/
+runtime/view/component
+view/component/
+db.js
