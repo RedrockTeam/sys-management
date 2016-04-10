@@ -1,22 +1,10 @@
 
-Application created by [ThinkJS](http://www.thinkjs.org)
+#Web 研发部 内部管理
 
-## Install dependencies
+##Feature list
+1. 账号, 权限
+2. 任务, 任务分配, 优先级, 任务成员小组, 任务详情, 任务指派
+3. 前台展示, 后台管理
 
-```
-npm install
-```
 
-## Start server
-
-```
-npm start
-```
-
-## Deploy with pm2
-
-Use pm2 to deploy app on production enviroment.
-
-```
-pm2 startOrReload pm2.json
-```
+PR @ Ling.

@@ -1,12 +1,11 @@
 {
-  "name": "thinkjs-application",
-  "description": "application created by thinkjs",
+  "name": "sys-management",
+  "description": "红岩网校 Web 研发部 内部管理系统",
   "version": "1.0.0",
   "scripts": {
     "start": "node www/development.js",
     "compile": "babel --presets es2015-loose,stage-1 --plugins transform-runtime src/ --out-dir app/ --source-maps",
-    "watch-compile": "node -e \"console.log('<npm run watch-compile> no longer need, use <npm start> command direct.');console.log();\"",
-    "watch": "npm run watch-compile"
+    "deploy": "npm run compile && pm2 startOrGracefulReload pm2.json"
   },
   "dependencies": {
     "thinkjs": "2.2.x",
@@ -20,6 +19,6 @@
     "babel-plugin-transform-runtime": "6.x.x",
     "babel-core": "6.x.x"
   },
-  "repository": "",
+  "repository": "RedrockTeam/sys-management",
   "license": "MIT"
 }
